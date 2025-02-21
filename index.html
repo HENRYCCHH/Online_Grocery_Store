@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<head>
+    <title>gocery store main page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style_v2.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>>
+</head>
+
+<body class="">
+    <header class="header">
+        <a href="#" class="logo"></a>
+
+        <img id="mainLogo" src="image/logo.jpeg" alt="online gocery store logo" width="120" height="120" style="float: left; margin-right: 2 rem;">
+        
+        
+        <div class="first_row" style="display: block;">
+            <form class=search_bar id="search_form" style="display: inline-block;">
+                <input type="search" id="search_keyword" name="search_bar" placeholder="Search for..." style="display: inline-block;"/> 
+                <label for="search_keyword" class="fa fa-search"></label>
+                <input type="submit" id="search_button"  value="search" style="display: inline-block; font-size: 1.7rem;"/>  
+            </form>
+        </div>
+
+
+        <nav class="navbar">
+            <ul class="nav_list">
+                <li class="nav_item"><a href="#home" id="home_tag" class="home_link nav_link">Home</a></li>
+                <li class="nav_item  dropdown"><a href="#frozen" id="frozen_link" class="nav_link  dropdown_link">Frozen<i class='bx bxs-chevron-down dropdown_icon'></i></a>
+
+                    <div class= "megamenu">
+                        <ul class="content">
+                            <li class= "megamenu_item header_megamenu"></li>
+                            <li class="megamenu_item">
+                                <div class="menu_icon">
+                                    <i class='bx bx-party'></i>
+                                </div>
+                                <div class="megamenu_link">
+                                    <a href="#">Party Foods</a>
+                                </div>
+                            </li>
+
+                            <li class="megamenu_item">
+                                <div class="menu_icon">
+                                    <i class='bx bx-popsicle' ></i>
+                                </div>
+                                <div class="megamenu_link">
+                                    <a href="#">Ice creams</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+
+                <li class="nav_item dropdown"><a href="#meat" id="meat_link" class="nav_link dropdown_link">Meat<i class='bx bxs-chevron-down dropdown_icon'></i></a>
+                    <div class= "megamenu">
+                        <ul class="content">
+                            <li class= "megamenu_item header_megamenu"></li>
+                            <li class="megamenu_item">
+                                <div class="menu_icon">
+                                    <i class='bx bx-knife' ></i>
+                                </div>
+                                <div class="megamenu_link">
+                                    <a href="#">Burgers</a>
+                                </div>
+                            </li>
+
+                            <li class="megamenu_item">
+                                <div class="menu_icon">
+                                    <i class='bx bx-knife' ></i>
+                                </div>
+                                <div class="megamenu_link">
+                                    <a href="#">Beef</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+
+                <li class="nav_item dropdown"><a href="#seafoods" id="seafoods_link" class="nav_link dropdown_link">Seafoods<i class='bx bxs-chevron-down dropdown_icon'></i></a>
+                    <div class= "megamenu">
+                        <ul class="content">
+                            <li class= "megamenu_item header_megamenu"></li>
+                            <li class="megamenu_item">
+                                <div class="menu_icon">
+                                    <i class='bx bx-water' ></i>
+                                </div>
+                                <div class="megamenu_link">
+                                    <a href="#">Prawns</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="nav_item dropdown"><a href="#Dairy & Pantry" class="nav_link dropdown_link">Dairy & Pantry<i class='bx bxs-chevron-down dropdown_icon'></i></a>
+                    <div class= "megamenu">
+                        <ul class="content">
+                            <li class= "megamenu_item header_megamenu"></li>
+                            <li class="megamenu_item">
+                                <div class="menu_icon">
+                                    <i class='bx bx-cheese' ></i>
+                                </div>
+                                <div class="megamenu_link">
+                                    <a href="#">Cheese</a>
+                                </div>
+                            </li>
+
+                            <li class="megamenu_item">
+                                <div class="menu_icon">
+                                    <i class='bx bxs-coffee' ></i>
+                                </div>
+                                <div class="megamenu_link">
+                                    <a href="#">Tea</a>
+                                </div>
+                            </li>
+
+                            <li class="megamenu_item">
+                                <div class="menu_icon">
+                                    <i class='bx bx-coffee-togo' ></i>
+                                </div>
+                                <div class="megamenu_link">
+                                    <a href="#">Coffee</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="nav_item dropdown"><a href="#Fruit & Vegetables" class="nav_link dropdown_link">Fruit & Vegetables<i class='bx bxs-chevron-down dropdown_icon'></i></a>
+                    <div class= "megamenu">
+                        <ul class="content">
+                            <li class= "megamenu_item header_megamenu"></li>
+                            <li class="megamenu_item">
+                                <div class="menu_icon">
+                                    <i class='bx bxs-pear'></i>
+                                </div>
+                                <div class="megamenu_link">
+                                    <a href="#">Fruit</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="nav_item dropdown"><a href="#Household" class="nav_link dropdown_link">Household<i class='bx bxs-chevron-down dropdown_icon'></i></a>
+                    <div class= "megamenu">
+                        <ul class="content">
+                            <li class= "megamenu_item header_megamenu"></li>
+                            <li class="megamenu_item">
+                                <div class="menu_icon">
+                                    <i class='bx bx-knife'></i>
+                                </div>
+                                <div class="megamenu_link">
+                                    <a href="#">Kitchen</a>
+                                </div>
+                            </li>
+
+                            <li class="megamenu_item">
+                                <div class="menu_icon">
+                                    <i class='bx bx-disc' ></i>
+                                </div>
+                                <div class="megamenu_link">
+                                    <a href="#">Laundry</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="nav_item dropdown"><a href="#Health & Beauty" class="nav_link dropdown_link">Health & Beauty<i class='bx bxs-chevron-down dropdown_icon'></i></a>
+                    <div class= "megamenu">
+                        <ul class="content">
+                            <li class= "megamenu_item header_megamenu"></li>
+                            <li class="megamenu_item">
+                                <div class="menu_icon">
+                                    <i class='bx bxs-capsule' ></i>
+                                </div>
+                                <div class="megamenu_link">
+                                    <a href="#">Medicines</a>
+                                </div>
+                            </li>
+
+                            <li class="megamenu_item">
+                                <div class="menu_icon">
+                                    <i class='bx bxs-shower' ></i>
+                                </div>
+                                <div class="megamenu_link">
+                                    <a href="#">Shower</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="nav_item dropdown"><a href="#Pet" class="nav_link dropdown_link">Pet<i class='bx bxs-chevron-down dropdown_icon'></i></a>
+                    <div class= "megamenu">
+                        <ul class="content">
+                            <li class= "megamenu_item header_megamenu"></li>
+                            <li class="megamenu_item">
+                                <div class="menu_icon">
+                                    <i class='bx bxs-dog' ></i>
+                                </div>
+                                <div class="megamenu_link">
+                                    <a href="#">Dog</a>
+                                </div>
+                            </li>
+
+                            <li class="megamenu_item">
+                                <div class="menu_icon">
+                                    <i class='bx bxs-image-alt'></i>
+                                </div>
+                                <div class="megamenu_link">
+                                    <a href="#">Bird</a>
+                                </div>
+                            </li>
+                            <li class="megamenu_item">
+                                <div class="menu_icon">
+                                    <i class='bx bxs-cat' ></i>
+                                </div>
+                                <div class="megamenu_link">
+                                    <a href="#">Cat</a>
+                                </div>
+                            </li>
+
+                            <li class="megamenu_item">
+                                <div class="menu_icon">
+                                    <i class='bx bx-anchor'></i>
+                                </div>
+                                <div class="megamenu_link">
+                                    <a href="#">Fish</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                
+
+            </ul>    
+
+        </nav>
+
+        <nav>
+            <div class="icons">
+                <div class="cart-container">
+
+                    <div class="fa fa-shopping-cart" id="cart-button"></div>
+                        <span>0</span>
+                </div>        
+            </div>
+        </nav>
+
+        <div id="searchResults" style="display: block;"></div>
+
+    </header>   
+
+    <div class="content">
+        <div id="productlistTitle" class="productlist" style="display: block;">PRODUCT LIST</div>
+        <div>
+            <div class="listProduct" id="contentList">
+                <!--div class="item">
+                    <img id="1000" src="image/1000.jpg" alt=""> 
+                    <h2>Fish Fingers</h2> 
+                    <h3>375grams</h3> 
+                    <h3 class="price">$200</h3> 
+                    <button class="addCart">Add To Cart</button>
+                    <span class='warning'></span>
+                </div-->
+            </div>
+        </div>    
+    </div>
+ 
+
+
+    <div class="cartTab">
+        <div class="cartTitle">
+            <h1>Shopping Cart </h1> 
+            <i class='bx bx-x close'></i>
+        </div>
+        <div class="listCart">
+            <!--div class="item">
+                <div class="image">
+                    <img src="image/1000.jpg" alt="">
+                </div> 
+                <div class="name">
+                    NAME 
+                </div> 
+                <div class="totalPrice">
+                    $200
+                </div> 
+                <div class="quantity">
+                    <span class="minus">-</span>
+                    <span>1</span>
+                    <span class="plus">+</span>
+                </div> 
+            <div-->
+        </div> 
+
+        <div class="priceItem">
+            <div id="priceTag">Total:</div>
+            <div id="priceSum"></div>
+
+        </div>
+
+        <div class="btn">
+            <button class="clearCart">CLEAR CART</button> 
+            <button class="checkOut">PLACE AN ORDER</button>
+        </div> 
+    </div>
+
+
+    <script>
+        const toggleShowCart = () => {
+            const urlParams = new URLSearchParams(window.location.search);
+            const showCart = urlParams.get('showCart');
+    
+            const body = document.querySelector('body');
+    
+
+            if (showCart === 'true') {
+                body.classList.add('showCart');
+            } else {
+                body.classList.remove('showCart');
+            }
+        }
+    
+        window.onload = toggleShowCart;
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+
+
+</body>
+</html>

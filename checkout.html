@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<head>
+    <title>gocery store checkout page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style_v2.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+
+
+<body>
+
+    <div class="container">
+        <div class="checkoutLayout">
+
+            <div class="returnCart">
+                <a id="backTag" href="index.html">&lt;&lt; back to shopping</a>
+                <div class="cartHeading">
+                    <h1 id="cartTag">Cart</h1>
+                    <h1 class="cartItemTag">Product Name</h1>
+                    <h1 class="cartItemTag">Description</h1>
+                    <h1 class="cartItemTag">Subtotal</h1>
+                    <h1 class="cartItemTag">Quantity</h1>
+                </div>
+                <div class="list">
+    
+                    <!--div class="item">
+                        <div class="image">
+                            <img src="image/1000.jpg" alt="">
+                        </div> 
+                        <div class="name">
+                        NAME 
+                        </div> 
+                         <div class="unit_quantity">
+                            xxxxxx
+                        </div> 
+                        <div class="totalPrice">
+                        $200
+                        </div> 
+                        <div class="quantity">
+                            <span>1</span>
+                        </div> 
+                    </div-->    
+                </div>
+            </div>
+
+            <div class="right">
+                <div class="titleDelivery">
+                    <h1>Delivery details</h1>
+                    <img id="cheukOutMainLogo" src="image/logo.jpeg" alt="online gocery store logo">
+                </div>
+                <div class="form">
+                    <div class="group">
+                        <label for="name">Full Name</label>
+                        <span class="inputCheck"></span>
+                        <input type="text" name="name" id="name" class="inputClass">
+                    </div>
+
+                    <div class="group">
+                        <label for="emailAddress">Email Address</label>
+                        <span class="inputCheck emailCheck"></span>
+                        <input type="text" name="emailAddress" id="emailAddress" class="inputClass">
+                    </div>
+        
+                    <div class="group">
+                        <label for="phone">Phone Number</label>
+                        <span class="inputCheck phoneCheck"></span>
+                        <input type="text" name="phone" id="phone" placeholder="e.g. 04XX XXX XXX" class="inputClass">
+                    </div>
+        
+                    <div class="group">
+                        <label for="address">Address</label>
+                        <span class="inputCheck"></span>
+                        <input type="text" name="address" id="address" class="inputClass">
+                    </div>
+
+                    <div class="group">
+                        <label for="city">City</label>
+                        <span class="inputCheck"></span>
+                        <input type="text" name="city" id="city" class="inputClass">
+                    </div>
+        
+                    <div class="group">
+                        <label for="country">State</label>
+                        <span class="optionCheck"></span>
+                        <select name="country" id="country" class="inputClass">
+                            <option value="Choose..">Choose..</option>
+                            <option value="NSW">NSW</option>
+                            <option value="VIC">VIC</option>
+                            <option value="QLD">QLD</option>
+                            <option value="WA">WA</option>
+                            <option value="SA">SA</option>
+                            <option value="TAS">TAS</option>
+                            <option value="ACT">ACT</option>
+                            <option value="NT">NT</option>
+                            <option value="Others">Others</option>
+                        </select>
+                    </div>
+        
+                </div>
+                <div class="return">
+
+                    <div class="row">
+                        <div class="totalTag">Total Price</div>
+                        <div class="totalTag" id="totalPriceCheckout"></div>
+                    </div>
+                </div>
+                <button class="buttonSubmit">SUBMIT</button>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+            
+    
+    <div id="myDelivery" class="delivery">
+        <div class="delivery-content">
+          <span class="close">&times;</span>
+          <p>Your order has been successfully submitted.<br>An email confirmation has been sent to your inbox.</p>
+            <div class="product_name_tag">Product Name</div>
+            <div class="product_description_tag">Description</div>
+            <div class="product_qunatity_tag">Quantity</div>
+
+            <div class="deliveryItem">
+                <!--div class="item">
+                <div class="deliveryName">
+                    ${foundItem.product_name || ''} 
+                </div> 
+                <div class="unit_quantity">
+                    ${foundItem.unit_quantity || ''} 
+                </div> 
+                <div class="deliveryQuantity">
+                    <span>${cart.quantity}</span>
+                </div> 
+                </div-->  
+            </div> 
+        </div>
+    </div>
+
+
+        
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/checkout.js"></script>
+
+
+</body>
+</html>
