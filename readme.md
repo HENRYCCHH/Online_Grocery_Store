@@ -3,6 +3,8 @@
 ## Overview
 This project is a dynamic web application that simulates an online grocery store. It provides a user-friendly interface for browsing products, managing a shopping cart, and placing orders. This assignment helps demonstrate the integration of multiple web technologies to create a complete e-commerce experience.
 
+![Webpage demo](https://github.com/HENRYCCHH/Online_Grocery_Store/blob/main/webpage_demo_screen_shot/1_mainpage.png)
+
 ## Features
 - **Browse by Categories:**  
   View items grouped into categories such as Frozen, Fresh, Beverages, Home, and Pet-food. Categories are clickable, allowing users to expand and view items within each group.
